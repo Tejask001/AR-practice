@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.4.0/dist/aframe-extras.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <!--    3d models   -->
+        <a-assets>
+            <a-asset-item id="boy" src="./running_boy/scene.gltf"></a-asset-item>
+        </a-assets>
+        <!-- 3d models end  -->
+
+        <a-gltf-model src="#boy" position="0 1.6 -3" scale="0.25 0.25 0.25" animation-mixer></a-gltf-model>
+
+    </a-scene>
+</body>
+
+</html>
